@@ -1,0 +1,248 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+}
+
+
+/*.......headerSection css starts here....*/
+.headerInfo{
+	background-color: #fff;
+	margin-bottom: 0;
+	border: 0;
+}
+
+
+.headerInfo .navbar-brand{
+	width: 110px;
+}
+
+.headerInfo .navbar-brand img{
+	width: 100%;
+	/* margin-left: 100px;*/
+}
+
+.navbar-default .navbar-nav .active a{
+    color: #69be28;	
+}
+
+.navbar-default .navbar-nav li a{
+   left: 300px;
+   color: #006a4d;
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #69be28;
+    border-color: #69be28;
+	/*margin-right: 120px;*/
+	margin-top: 9px;
+	text-transform: uppercase;
+}
+
+
+/*.......section institute css starts.....*/
+.institute{
+	width: 100%;
+	height: 100vh;
+	padding: 120px 0;
+	/*background-color: #7fb4a6;*/
+	background: linear-gradient(rgb(0, 106, 77, 0.5), rgb(0, 106, 77, 0.5)),  url('../images/img2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	object-fit: cover;
+	position: relative;
+}
+
+.header{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.header h1{
+	font-size: 32px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.header h2{
+	font-size: 58px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.header h3{
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+/*.......section event css starts.......*/
+
+.event{
+	padding: 120px 0;
+}
+
+ h4{
+	font-size: 32px;
+	font-weight: bold;
+	color: #006a4d;
+	margin-bottom: 20px;
+}
+
+ h5{
+	font-size: 20px;
+	font-weight: bold;
+	color: #006a4d;
+	margin-bottom: 15px;
+}
+
+ p{
+	font-size: 16px;
+	font-weight: normal;
+	color: #000;
+	margin-bottom: 25px;
+}
+
+.pics{
+	height: 350px;
+	width: 460px;
+	margin-top: 70px;
+}
+
+.pics img{
+	height: 100%;
+	width: 100%;
+}
+ 
+/*.....section speakers css starts....*/
+.speakers{
+	padding: 105px 0 100px;
+	background-color: #006a4d; 
+}
+
+.speakers h4{
+	color: #fff;
+}
+
+.speakers p{
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.teamInfo{
+	margin-bottom: 75px;
+}
+
+.teamInfo figure{
+	width: 160px;
+	height: 160px;
+	margin: 0 auto 15px;
+	object-fit: cover;
+}
+
+.teamInfo figure img{
+	width: 100%;
+	height: 100%;
+}
+
+.speakers .teamInfo h1{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 10px;
+}
+ 
+.speakers .teamInfo h2{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 10px;
+}
+
+.speakers .teamInfo h3{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 4px;
+}
+
+.buttn a{
+	width: 220px;
+    height: 50px;
+    font-size: 18px;
+	font-weight: bold;
+	padding: 10px 15px;
+    color:#fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.footer{
+	padding: 130px 0 80px;
+	background-color: #3c3c3c;
+}
+
+.footer a{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 130px;
+}
+
+
+.footer h1{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+
+.brandIcons li{
+	display: inline-block;
+}
+
+.brandIcons li a i{
+	width:30px;
+	height: 30px;
+	font-size: 18px;
+	padding: 5px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	
+}
+
+
+
+
+
+
+
+
+
